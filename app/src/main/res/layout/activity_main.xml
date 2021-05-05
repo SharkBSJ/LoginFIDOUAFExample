@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.sjsoft.loginfidouafexample.MainActivity">
+
+    <CheckBox
+        android:text="지문 등록하기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/register_finger_check"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="지문 인증하기"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/auth_finger_btn"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="패턴 등록하기"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/register_pattern_check"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="패턴 인증하기"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/auth_pattern_btn"
+        android:onClick="onClickPatternBtn"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="핀 등록하기"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/register_pin_check"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="핀 인증하기"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/auth_pin_btn"
+        android:onClick="onClickPinBtn"
+        />
+
+</LinearLayout>
